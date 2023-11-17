@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+   <title>My Basic Form</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <section class="wrapper">
+       <div class="content">
+         <header>
+           <h1>Newsletter Sign-Up</h1>
+         </header>
+         <form name="MyForm" method="GET" action="index.html" onsubmit="return validateInputs();">
+             <input type="text" name="fullname" placeholder="Enter your full name">
+             <input type="email" name="email" placeholder="Enter your email">
+             <input type="tel" name="phoneNumber" placeholder="Enter your phone number" maxlength="15">
+             <button type="submit">Let's go</button>
+         </form>
+       </div>
+     </section>
+   <script src="index.js"></script>
+</body>
+</html>
